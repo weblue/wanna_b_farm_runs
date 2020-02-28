@@ -1,0 +1,165 @@
+{
+    "types": {
+        "list": ["tree", "herb", "bush", "allotments", "fruit_tree", "hops", "special"],
+        "tree": {
+            "name": "Tree",
+            "minlvl": 15,
+            "loc": ["lumbridge", "varrock", "falador_park", "grand_tree", "taverly", "farming_guild2"]
+        },
+        "herb": {
+            "name": "Herb",
+            "minlvl": 9,
+            "loc": ["catherby"]
+        },
+        "bush": {
+            "name": "Bush",
+            "minlvl": 10
+        },
+        "allotments": {
+            "name": "Allotments",
+            "minlvl": 1,
+            "loc": ["catherby"]
+        },
+        "fruit_tree": {
+            "name": "Fruit Trees",
+            "minlvl": 27,
+            "loc": ["grand_tree", "tree_gnome_village", "catherby", "brimhaven", "farming_guild3", "lletya"]
+        },
+        "celastrus": {
+            "name": "Celastrus",
+            "minlvl": 85
+        },
+        "calquat": {
+            "name": "Calquat",
+            "minlvl": 72,
+            "loc": ["tai_bwo"]
+        },
+        "hops": {
+            "name": "Hops",
+            "minlvl": 3
+        },
+        "crystal_tree": {
+            "name": "Crystal Tree",
+            "minlvl": 74
+        },
+        "hespori": {
+            "name": "Hespori",
+            "minlvl": 65
+        },
+        "hardwood": {
+            "name": "Hardwood",
+            "minlvl": 35
+        },
+        "cacti": {
+            "name": "Cacti",
+            "minlvl": 55
+        },
+        "belladonna": {
+            "name": "Belladonna",
+            "minlvl": 63,
+            "loc": ["draynor"]
+        },
+        "grapes": {
+            "name": "Grapes",
+            "minlvl": 36
+        },
+        "mush": {
+            "name": "Mushrooms",
+            "minlvl": 53
+        },
+        "redwood": {
+            "name": "Redwood",
+            "minlvl": 90
+        }
+    },
+    "locations": {
+        "farming_guild1": {
+            "name": "Farming Guild Tier 1",
+            "req": [45, "hoss_favor"]
+        },
+        "farming_guild2": {
+            "name": "Farming Guild Tier 2",
+            "req": [65, "hoss_favor"]
+        },
+        "farming_guild3": {
+            "name": "Farming Guild Tier 3",
+            "req": [85, "hoss_favor"]
+        },
+        "lletya": {
+            "name": "Lletya",
+            "req": [0, "q_mep1"]
+        }, 
+        "falador": {
+            "name": "Falador"
+        },
+        "falador_park": {
+            "name": "Falador Park"
+        },
+        "morytania": {
+            "name": "Morytania",
+            "req": [0, "q_priest"]
+        },
+        "al_kharid": {
+            "name": "Al Kharid"
+        },
+        "lumbridge": {
+            "name": "Lumbridge"
+        },
+        "varrock": {
+            "name": "Varrock"
+        },
+        "grand_tree": {
+            "name": "Grand Tree",
+            "req": [0, "q_grand_tree"]
+        },
+        "tree_gnome_village": {
+            "name": "Tree Gnome Village",
+            "req": [0, "q_tgv"]
+        },
+        "taverly": {
+            "name": "Taverly"
+        },
+        "brimhaven": {
+            "name": "Brimhaven"
+        },
+        "catherby": {
+            "name": "Catherby"
+        },
+        "draynor": {
+            "name": "Draynor Village"
+        },
+        "tai_bwo": {
+            "name": "Tai Bwo Wanna Village",
+            "req": [0, "q_tbw"]
+        }
+    },
+    "reqs": {
+        "hoss_favor": {
+            "name": "60% Hossidius Favor"
+        },
+        "q_priest": {
+            "name": "Priest in Peril"
+        },
+        "q_mep1": {
+            "name": "Mournings Ends Part 1"
+        },
+        "q_ftp1": {
+            "name": "Fairy Tale Part 1"
+        },
+        "i_sor": {
+            "name": "Scroll of Redirection"
+        },
+        "d_mory_elite": {
+            "name": "Morytania Elite"
+        },
+        "q_grand_tree": {
+            "name": "The Grand Tree"
+        },
+        "q_tgv": {
+            "name": "Tree Gnome Village"
+        },
+        "q_tbw": {
+            "name": "Tai Bwo Wanna Trio"
+        }
+    }
+}
