@@ -9,70 +9,77 @@
         "herb": {
             "name": "Herb",
             "minlvl": 9,
-            "loc": ["catherby"]
+            "loc": ["catherby", "farming_guild2", "falador_farm", "harmony_island_herb", "weiss", "troll_strong", "morytania", "hosidius", "ardy"]
         },
         "bush": {
             "name": "Bush",
-            "minlvl": 10
+            "minlvl": 10,
+            "loc": ["ard_monastary","champ_guild","misc","rim"]
         },
         "allotments": {
             "name": "Allotments",
             "minlvl": 1,
-            "loc": ["catherby"]
+            "loc": ["catherby", "farming_guild1", "falador_farm", "prifddinas", "harmony_island_allot", "morytania", "ardy", "hosidius"]
         },
         "fruit_tree": {
             "name": "Fruit Trees",
             "minlvl": 27,
             "loc": ["grand_tree", "tree_gnome_village", "catherby", "brimhaven", "farming_guild3", "lletya"]
         },
-        "celastrus": {
-            "name": "Celastrus",
-            "minlvl": 85
-        },
-        "calquat": {
-            "name": "Calquat",
-            "minlvl": 72,
-            "loc": ["tai_bwo"]
-        },
         "hops": {
             "name": "Hops",
-            "minlvl": 3
+            "minlvl": 3,
+            "loc": ["champ_guild", "yanille", "camalot", "entrana"]
         },
-        "crystal_tree": {
-            "name": "Crystal Tree",
-            "minlvl": 74
-        },
-        "hespori": {
-            "name": "Hespori",
-            "minlvl": 65
-        },
-        "hardwood": {
-            "name": "Hardwood",
-            "minlvl": 35
-        },
-        "cacti": {
-            "name": "Cacti",
-            "minlvl": 55
-        },
-        "belladonna": {
-            "name": "Belladonna",
-            "minlvl": 63,
-            "loc": ["draynor"]
-        },
-        "grapes": {
-            "name": "Grapes",
-            "minlvl": 36
-        },
-        "mush": {
-            "name": "Mushrooms",
-            "minlvl": 53
-        },
-        "redwood": {
-            "name": "Redwood",
-            "minlvl": 90
+        "special": {
+            "crystal_tree": {
+                "name": "Crystal Tree",
+                "minlvl": 74,
+                "loc": ["prifddinas"]
+            },
+            "hespori": {
+                "name": "Hespori",
+                "minlvl": 65,
+                "loc": ["farming_guild2"]
+            },
+            "hardwood": {
+                "name": "Hardwood",
+                "minlvl": 35,
+                "loc": ["fossil_island"]
+            },
+            "belladonna": {
+                "name": "Belladonna",
+                "minlvl": 63,
+                "loc": ["draynor"]
+            },
+            "mush": {
+                "name": "Mushrooms",
+                "minlvl": 53,
+                "loc": ["canifis"]
+            },
+            "redwood": {
+                "name": "Redwood",
+                "minlvl": 90,
+                "loc": ["farming_guild3"]
+            },
+            "cacti": {
+                "name": "Cacti",
+                "minlvl": 55,
+                "loc": ["al_kharid", "farming_guild1"]
+            },
+            "celastrus": {
+                "name": "Celastrus",
+                "minlvl": 85,
+                "loc": ["farming_guild3"]
+            },
+            "calquat": {
+                "name": "Calquat",
+                "minlvl": 72,
+                "loc": ["tai_bwo"]
+            }
         }
     },
-    "locations": {
+    "loc": {
         "farming_guild1": {
             "name": "Farming Guild Tier 1",
             "req": [45, "hoss_favor"]
@@ -89,8 +96,8 @@
             "name": "Lletya",
             "req": [0, "q_mep1"]
         }, 
-        "falador": {
-            "name": "Falador"
+        "falador_farm": {
+            "name": "Falador Farm"
         },
         "falador_park": {
             "name": "Falador Park"
@@ -131,11 +138,62 @@
         "tai_bwo": {
             "name": "Tai Bwo Wanna Village",
             "req": [0, "q_tbw"]
+        },
+        "canifis": {
+            "name": "Canifis",
+            "req": [0, "q_priest"]
+        },
+        "ard_monastary": {
+            "name": "Ardougne Monastary"
+        },
+        "champ_guild": {
+            "name": "Champion's Guild"
+        },
+        "entrana": {
+            "name": "Entrana"
+        },
+        "camelot": {
+            "name": "Camelot"
+        },
+        "yanille": {
+            "name": "Yanille"
+        },
+        "prifddinas": {
+            "name": "Prifddinas",
+            "req": [0, "q_sote"]
+        },
+        "misc": {
+            "name": "Miscillenia"
+        },
+        "rim": {
+            "name": "Rimmington"
+        },
+        "harmony_island_herb": {
+            "name": "Harmony Island",
+            "req": [0, "d_mory_elite"]
+        },
+        "harmony_island_allot": {
+            "name": "Harmony Island",
+            "req": [0, "q_great_brain"]
+        },
+        "weiss": {
+            "name": "Weiss",
+            "req": [0, "q_arm_friend"]
+        },
+        "troll_strong": {
+            "name": "Troll Stronghold",
+            "req": [0, "q_arm_adven"]
+        },
+        "hosidius": {
+            "name": "Hosidius"
+        },
+        "ardy": {
+            "name": "Ardougne"
         }
     },
     "reqs": {
-        "hoss_favor": {
-            "name": "60% Hossidius Favor"
+        "hos_favor": {
+            "name": "60% Hosidius Favor"
         },
         "q_priest": {
             "name": "Priest in Peril"
@@ -160,6 +218,18 @@
         },
         "q_tbw": {
             "name": "Tai Bwo Wanna Trio"
+        },
+        "q_sote": {
+            "name": "Song of the Elves"
+        },
+        "q_great_brain": {
+            "name": "Great Brain Robbery"
+        },
+        "q_arm_friend": {
+            "name": "Making Friends with My Arm"
+        },
+        "q_arm_adven": {
+            "name": "My Arm's Big Adventure"
         }
     }
 }
