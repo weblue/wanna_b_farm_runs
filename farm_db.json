@@ -94,7 +94,7 @@
         },
         "lletya": {
             "name": "Lletya",
-            "req": [0, "q_mep1"]
+            "req": ["q_mep1"]
         }, 
         "falador_farm": {
             "name": "Falador Farm"
@@ -104,7 +104,7 @@
         },
         "morytania": {
             "name": "Morytania",
-            "req": [0, "q_priest"]
+            "req": ["q_priest"]
         },
         "al_kharid": {
             "name": "Al Kharid"
@@ -117,11 +117,11 @@
         },
         "grand_tree": {
             "name": "Grand Tree",
-            "req": [0, "q_grand_tree"]
+            "req": ["q_grand_tree"]
         },
         "tree_gnome_village": {
             "name": "Tree Gnome Village",
-            "req": [0, "q_tgv"]
+            "req": ["q_tgv"]
         },
         "taverly": {
             "name": "Taverly"
@@ -137,11 +137,11 @@
         },
         "tai_bwo": {
             "name": "Tai Bwo Wanna Village",
-            "req": [0, "q_tbw"]
+            "req": ["q_tbw"]
         },
         "canifis": {
             "name": "Canifis",
-            "req": [0, "q_priest"]
+            "req": ["q_priest"]
         },
         "ard_monastary": {
             "name": "Ardougne Monastary"
@@ -160,7 +160,7 @@
         },
         "prifddinas": {
             "name": "Prifddinas",
-            "req": [0, "q_sote"]
+            "req": ["q_sote"]
         },
         "misc": {
             "name": "Miscillenia"
@@ -170,19 +170,19 @@
         },
         "harmony_island_herb": {
             "name": "Harmony Island",
-            "req": [0, "d_mory_elite"]
+            "req": ["d_mory_elite"]
         },
         "harmony_island_allot": {
             "name": "Harmony Island",
-            "req": [0, "q_great_brain"]
+            "req": ["q_great_brain"]
         },
         "weiss": {
             "name": "Weiss",
-            "req": [0, "q_arm_friend"]
+            "req": ["q_arm_friend"]
         },
         "troll_strong": {
             "name": "Troll Stronghold",
-            "req": [0, "q_arm_adven"]
+            "req": ["q_arm_adven"]
         },
         "hosidius": {
             "name": "Hosidius"
@@ -208,7 +208,7 @@
             "name": "Scroll of Redirection"
         },
         "d_mory_elite": {
-            "name": "Morytania Elite"
+            "name": "Morytania Elite Diary"
         },
         "q_grand_tree": {
             "name": "The Grand Tree"
@@ -230,6 +230,79 @@
         },
         "q_arm_adven": {
             "name": "My Arm's Big Adventure"
+        },
+        "q_ghosts_ahoy": {
+            "name": "Ghosts Ahoy"
+        },
+        "d_lumby_med": {
+            "name": "Lumbridge Medium Diary or higher"
+        },
+        "d_ardy_med": {
+            "name": "Ardougne Medium Diary or higher"
+        },
+        "d_ardy_hard": {
+            "name": "Ardougne Hard Diary or higher",
+            "prereq": "d_ardy_med"
+        }
+    },
+    "teleports": {
+        "ectophial": {
+            "name": "Ectophial",
+            "req": "q_ghosts_ahoy"
+        },
+        "lum_ring": {
+            "name": "Lumbridge Ring",
+            "req": "d_lumby_med"
+        },
+        "ardy_cloak": {
+            "name": "Ardougne Cape",
+            "req": "d_ardy_med"
+        },
+        "tp_yanille": {
+            "name": "Yanille TP",
+            "req": "d_ardy_hard",
+            "runes": []
+        },
+        "tp_watchtower": {
+            "name": "Watchtower TP",
+            "runes": []
+        },
+        "tele_seed": {
+            "name": "Crystal Tele Seed",
+            "req": ["q_mep1"]
+        },
+        "balloon": {
+            "name": "Balloon System",
+            "runes": ["logs"]
+        },
+        "poh_yanille": {
+            "name": "Yanille POH",
+            "req": ["i_sor"]
+        },
+        "poh_taverly": {
+            "name": "Taverly POH",
+            "req": ["i_sor"]
+        },
+        "poh_rim": {
+            "name": "Rimmington POH",
+            "req": ["i_sor"]
+        },
+        "poh_brimhaven": {
+            "name": "Brimhaven POH",
+            "req": ["i_sor"]
+        },
+        "spirit_tree": {
+            "name": "Spirit Tree",
+            "req": ["q_tgv", "q_grand_tree"]
+        },
+        "skills_neck": {
+            "name": "Skills Necklace"
+        },
+        "row": {
+            "name": "Ring of Wealth"
+        },
+        "scroll_tbw": {
+            "name": "Tai Bwo Wanna Scroll"
         }
     }
 }
