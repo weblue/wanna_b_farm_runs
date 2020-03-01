@@ -75,62 +75,79 @@
     "locations": {
         "farming_guild1": {
             "name": "Farming Guild Tier 1",
-            "req": [45, "hoss_favor"]
+            "req": [45, "hoss_favor"],
+            "item": ["i_skill", "fairy_ring"]
         },
         "farming_guild2": {
             "name": "Farming Guild Tier 2",
-            "req": [65, "hoss_favor"]
+            "req": [65, "hoss_favor"],
+            "item": ["i_skill", "fairy_ring"]
         },
         "farming_guild3": {
             "name": "Farming Guild Tier 3",
-            "req": [85, "hoss_favor"]
+            "req": [85, "hoss_favor"],
+            "item": ["i_skill", "fairy_ring"]
         },
         "lletya": {
             "name": "Lletya",
-            "req": [0, "q_mep1"]
+            "req": [0, "q_mep1"],
+            "item": ["i_tele_crystal"]
         }, 
         "falador": {
-            "name": "Falador"
+            "name": "Falador",
+            "item": ["i_exp_ring_2", "mg_rat", "tp_falador"]
         },
         "falador_park": {
-            "name": "Falador Park"
+            "name": "Falador Park",
+            "item": ["i_row", "tp_falador"]
         },
         "morytania": {
             "name": "Morytania",
-            "req": [0, "q_priest"]
+            "req": [0, "q_priest"],
+            "item": ["i_ecto", "tp_fenkenstrain", "fairy_ring"]
         },
         "al_kharid": {
-            "name": "Al Kharid"
+            "name": "Al Kharid",
+            "item": ["i_rod", "i_glory"]
         },
         "lumbridge": {
-            "name": "Lumbridge"
+            "name": "Lumbridge",
+            "item": ["tp_home", "tp_lumbridge"]
         },
         "varrock": {
-            "name": "Varrock"
+            "name": "Varrock",
+            "item": ["tp_varrock"]
         },
         "grand_tree": {
             "name": "Grand Tree",
-            "req": [0, "q_grand_tree"]
+            "req": [0, "q_grand_tree"],
+            "item": ["spirit_tree", "i_slayer_ring", "hot_air", "i_seed_pod"]
         },
         "tree_gnome_village": {
             "name": "Tree Gnome Village",
-            "req": [0, "q_tgv"]
+            "req": [0, "q_tgv"],
+            "item": ["spirit_tree", "fairy_ring"]
         },
         "taverly": {
-            "name": "Taverly"
+            "name": "Taverly",
+            "item": ["air_balloon", "poh_taverley", "i_games"]
         },
         "brimhaven": {
-            "name": "Brimhaven"
+            "name": "Brimhaven",
+            "item": ["poh_brimhaven", "charter_ship", "ardy_ship"]
         },
         "catherby": {
-            "name": "Catherby"
+            "name": "Catherby",
+            "item": ["tp_catherby", "tp_camelot"]
         },
         "draynor": {
-            "name": "Draynor Village"
+            "name": "Draynor Village",
+            "item": ["tp_draynor", "i_glory"]
         },
         "tai_bwo": {
             "name": "Tai Bwo Wanna Village",
-            "req": [0, "q_tbw"]
+            "req": [0, "q_tbw"],
+            "item": ["i_tai_bwo", "fairy_ring"]
         }
     },
     "reqs": {
@@ -161,5 +178,8 @@
         "q_tbw": {
             "name": "Tai Bwo Wanna Trio"
         }
+    },
+    "items": {
+
     }
 }
