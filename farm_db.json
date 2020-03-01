@@ -9,70 +9,77 @@
         "herb": {
             "name": "Herb",
             "minlvl": 9,
-            "loc": ["catherby"]
+            "loc": ["catherby", "farming_guild2", "falador_farm", "harmony_island_herb", "weiss", "troll_strong", "morytania", "hosidius", "ardy"]
         },
         "bush": {
             "name": "Bush",
-            "minlvl": 10
+            "minlvl": 10,
+            "loc": ["ard_monastary","champ_guild","misc","rim"]
         },
         "allotments": {
             "name": "Allotments",
             "minlvl": 1,
-            "loc": ["catherby"]
+            "loc": ["catherby", "farming_guild1", "falador_farm", "prifddinas", "harmony_island_allot", "morytania", "ardy", "hosidius"]
         },
         "fruit_tree": {
             "name": "Fruit Trees",
             "minlvl": 27,
             "loc": ["grand_tree", "tree_gnome_village", "catherby", "brimhaven", "farming_guild3", "lletya"]
         },
-        "celastrus": {
-            "name": "Celastrus",
-            "minlvl": 85
-        },
-        "calquat": {
-            "name": "Calquat",
-            "minlvl": 72,
-            "loc": ["tai_bwo"]
-        },
         "hops": {
             "name": "Hops",
-            "minlvl": 3
+            "minlvl": 3,
+            "loc": ["champ_guild", "yanille", "camalot", "entrana"]
         },
-        "crystal_tree": {
-            "name": "Crystal Tree",
-            "minlvl": 74
-        },
-        "hespori": {
-            "name": "Hespori",
-            "minlvl": 65
-        },
-        "hardwood": {
-            "name": "Hardwood",
-            "minlvl": 35
-        },
-        "cacti": {
-            "name": "Cacti",
-            "minlvl": 55
-        },
-        "belladonna": {
-            "name": "Belladonna",
-            "minlvl": 63,
-            "loc": ["draynor"]
-        },
-        "grapes": {
-            "name": "Grapes",
-            "minlvl": 36
-        },
-        "mush": {
-            "name": "Mushrooms",
-            "minlvl": 53
-        },
-        "redwood": {
-            "name": "Redwood",
-            "minlvl": 90
+        "special": {
+            "crystal_tree": {
+                "name": "Crystal Tree",
+                "minlvl": 74,
+                "loc": ["prifddinas"]
+            },
+            "hespori": {
+                "name": "Hespori",
+                "minlvl": 65,
+                "loc": ["farming_guild2"]
+            },
+            "hardwood": {
+                "name": "Hardwood",
+                "minlvl": 35,
+                "loc": ["fossil_island"]
+            },
+            "belladonna": {
+                "name": "Belladonna",
+                "minlvl": 63,
+                "loc": ["draynor"]
+            },
+            "mush": {
+                "name": "Mushrooms",
+                "minlvl": 53,
+                "loc": ["canifis"]
+            },
+            "redwood": {
+                "name": "Redwood",
+                "minlvl": 90,
+                "loc": ["farming_guild3"]
+            },
+            "cacti": {
+                "name": "Cacti",
+                "minlvl": 55,
+                "loc": ["al_kharid", "farming_guild1"]
+            },
+            "celastrus": {
+                "name": "Celastrus",
+                "minlvl": 85,
+                "loc": ["farming_guild3"]
+            },
+            "calquat": {
+                "name": "Calquat",
+                "minlvl": 72,
+                "loc": ["tai_bwo"]
+            }
         }
     },
-    "locations": {
+    "loc": {
         "farming_guild1": {
             "name": "Farming Guild Tier 1",
             "req": [45, "hoss_favor"],
@@ -92,9 +99,9 @@
             "name": "Lletya",
             "req": [0, "q_mep1"],
             "item": ["i_tele_crystal"]
-        }, 
-        "falador": {
-            "name": "Falador",
+        },
+        "falador_farm": {
+            "name": "Falador Farm",
             "item": ["i_exp_ring_2", "mg_rat", "tp_falador"]
         },
         "falador_park": {
@@ -148,11 +155,65 @@
             "name": "Tai Bwo Wanna Village",
             "req": [0, "q_tbw"],
             "item": ["i_tai_bwo", "fairy_ring"]
+        },
+        "canifis": {
+            "name": "Canifis",
+            "req": ["q_priest"],
+            "item": ["fairy_ring", "tp_salve"]
+        },
+        "ard_monastary": {
+            "name": "Ardougne Monastary",
+            "item": ["i_ardy_cape_1"]
+        },
+        "champ_guild": {
+            "name": "Champion's Guild",
+            "item": ["i_chronicle", "i_combat_brace", "canoe"]
+        },
+        "entrana": {
+            "name": "Entrana"
+        },
+        "camelot": {
+            "name": "Camelot"
+        },
+        "yanille": {
+            "name": "Yanille"
+        },
+        "prifddinas": {
+            "name": "Prifddinas",
+            "req": ["q_sote"]
+        },
+        "misc": {
+            "name": "Miscillenia"
+        },
+        "rim": {
+            "name": "Rimmington"
+        },
+        "harmony_island_herb": {
+            "name": "Harmony Island",
+            "req": ["d_mory_elite"]
+        },
+        "harmony_island_allot": {
+            "name": "Harmony Island",
+            "req": ["q_great_brain"]
+        },
+        "weiss": {
+            "name": "Weiss",
+            "req": ["q_arm_friend"]
+        },
+        "troll_strong": {
+            "name": "Troll Stronghold",
+            "req": ["q_arm_adven"]
+        },
+        "hosidius": {
+            "name": "Hosidius"
+        },
+        "ardy": {
+            "name": "Ardougne"
         }
     },
     "reqs": {
-        "hoss_favor": {
-            "name": "60% Hossidius Favor"
+        "hos_favor": {
+            "name": "60% Hosidius Favor"
         },
         "q_priest": {
             "name": "Priest in Peril"
@@ -167,7 +228,7 @@
             "name": "Scroll of Redirection"
         },
         "d_mory_elite": {
-            "name": "Morytania Elite"
+            "name": "Morytania Elite Diary"
         },
         "q_grand_tree": {
             "name": "The Grand Tree"
@@ -177,6 +238,91 @@
         },
         "q_tbw": {
             "name": "Tai Bwo Wanna Trio"
+        },
+        "q_sote": {
+            "name": "Song of the Elves"
+        },
+        "q_great_brain": {
+            "name": "Great Brain Robbery"
+        },
+        "q_arm_friend": {
+            "name": "Making Friends with My Arm"
+        },
+        "q_arm_adven": {
+            "name": "My Arm's Big Adventure"
+        },
+        "q_ghosts_ahoy": {
+            "name": "Ghosts Ahoy"
+        },
+        "d_lumby_med": {
+            "name": "Lumbridge Medium Diary or higher"
+        },
+        "d_ardy_med": {
+            "name": "Ardougne Medium Diary or higher"
+        },
+        "d_ardy_hard": {
+            "name": "Ardougne Hard Diary or higher",
+            "prereq": "d_ardy_med"
+        }
+    },
+    "teleports": {
+        "ectophial": {
+            "name": "Ectophial",
+            "req": "q_ghosts_ahoy"
+        },
+        "lum_ring": {
+            "name": "Lumbridge Ring",
+            "req": "d_lumby_med"
+        },
+        "ardy_cloak": {
+            "name": "Ardougne Cape",
+            "req": "d_ardy_med"
+        },
+        "tp_yanille": {
+            "name": "Yanille TP",
+            "req": "d_ardy_hard",
+            "runes": []
+        },
+        "tp_watchtower": {
+            "name": "Watchtower TP",
+            "runes": []
+        },
+        "tele_seed": {
+            "name": "Crystal Tele Seed",
+            "req": ["q_mep1"]
+        },
+        "balloon": {
+            "name": "Balloon System",
+            "runes": ["logs"]
+        },
+        "poh_yanille": {
+            "name": "Yanille POH",
+            "req": ["i_sor"]
+        },
+        "poh_taverly": {
+            "name": "Taverly POH",
+            "req": ["i_sor"]
+        },
+        "poh_rim": {
+            "name": "Rimmington POH",
+            "req": ["i_sor"]
+        },
+        "poh_brimhaven": {
+            "name": "Brimhaven POH",
+            "req": ["i_sor"]
+        },
+        "spirit_tree": {
+            "name": "Spirit Tree",
+            "req": ["q_tgv", "q_grand_tree"]
+        },
+        "skills_neck": {
+            "name": "Skills Necklace"
+        },
+        "row": {
+            "name": "Ring of Wealth"
+        },
+        "scroll_tbw": {
+            "name": "Tai Bwo Wanna Scroll"
         }
     },
     "items": {
