@@ -170,45 +170,57 @@
             "item": ["i_chronicle", "i_combat_brace", "canoe"]
         },
         "entrana": {
-            "name": "Entrana"
+            "name": "Entrana",
+            "item": ["hot_air", "mg_rat"]
         },
         "camelot": {
-            "name": "Camelot"
+            "name": "Camelot",
+            "item": ["tp_camelot", "fairy_ring"]
         },
         "yanille": {
-            "name": "Yanille"
+            "name": "Yanille",
+            "item": ["tp_yanille", "poh_yanille", "mg_nmz"]
         },
         "prifddinas": {
             "name": "Prifddinas",
-            "req": ["q_sote"]
+            "req": ["q_sote"],
+            "item": ["spirit_tree", "i_tele_crystal", "poh_prif"]
         },
         "misc": {
-            "name": "Miscillenia"
+            "name": "Miscillenia",
+            "item": ["i_row", "fairy_ring"]
         },
         "rim": {
-            "name": "Rimmington"
+            "name": "Rimmington",
+            "item": ["ardy_ship", "poh_rim"]
         },
         "harmony_island_herb": {
             "name": "Harmony Island",
-            "req": ["d_mory_elite"]
+            "req": ["d_mory_elite"],
+            "item": ["tp_harmony"]
         },
         "harmony_island_allot": {
             "name": "Harmony Island",
-            "req": ["q_great_brain"]
+            "req": ["q_great_brain"],
+            "item": ["tp_harmony"]
         },
         "weiss": {
             "name": "Weiss",
-            "req": ["q_arm_friend"]
+            "req": ["q_arm_friend"],
+            "item": ["salt_weiss"]
         },
         "troll_strong": {
             "name": "Troll Stronghold",
-            "req": ["q_arm_adven"]
+            "req": ["q_arm_adv"],
+            "item": ["salt_troll", "tp_troll"]
         },
         "hosidius": {
-            "name": "Hosidius"
+            "name": "Hosidius",
+            "item": ["i_xerics", "poh_hoss"]
         },
         "ardy": {
-            "name": "Ardougne"
+            "name": "Ardougne",
+            "item": ["i_ardy_cape_2"]
         }
     },
     "reqs": {
@@ -248,7 +260,7 @@
         "q_arm_friend": {
             "name": "Making Friends with My Arm"
         },
-        "q_arm_adven": {
+        "q_arm_adv": {
             "name": "My Arm's Big Adventure"
         },
         "q_ghosts_ahoy": {
