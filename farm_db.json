@@ -1,6 +1,5 @@
 {
     "types": {
-        "list": ["tree", "herb", "bush", "allotments", "fruit_tree", "hops", "special", "flower"],
         "tree": {
             "name": "Tree",
             "minlvl": 15,
@@ -86,22 +85,22 @@
     "locs": {
         "farming_guild1": {
             "name": "Farming Guild Tier 1",
-            "req": [45, "hoss_favor"],
+            "req": ["hos_favor", 45],
             "tele": ["i_skill", "fairy_ring"]
         },
         "farming_guild2": {
             "name": "Farming Guild Tier 2",
-            "req": [65, "hoss_favor"],
+            "req": ["hos_favor", 65],
             "tele": ["i_skill", "fairy_ring"]
         },
         "farming_guild3": {
             "name": "Farming Guild Tier 3",
-            "req": [85, "hoss_favor"],
+            "req": ["hos_favor", 85],
             "tele": ["i_skill", "fairy_ring"]
         },
         "lletya": {
             "name": "Lletya",
-            "req": [0, "q_mep1"],
+            "req": ["q_mep1"],
             "tele": ["i_tele_crystal"]
         },
         "falador_farm": {
@@ -114,7 +113,7 @@
         },
         "morytania": {
             "name": "Morytania",
-            "req": [0, "q_priest"],
+            "req": ["q_priest"],
             "tele": ["i_ecto", "tp_fenkenstrain", "fairy_ring"]
         },
         "al_kharid": {
@@ -131,12 +130,12 @@
         },
         "grand_tree": {
             "name": "Grand Tree",
-            "req": [0, "q_grand_tree"],
+            "req": ["q_grand_tree"],
             "tele": ["spirit_tree", "i_slayer_ring", "hot_air", "i_seed_pod"]
         },
         "tree_gnome_village": {
             "name": "Tree Gnome Village",
-            "req": [0, "q_tgv"],
+            "req": ["q_tgv"],
             "tele": ["spirit_tree", "fairy_ring"]
         },
         "taverly": {
@@ -157,7 +156,7 @@
         },
         "tai_bwo": {
             "name": "Tai Bwo Wanna Village",
-            "req": [0, "q_tbw"],
+            "req": ["q_tbw"],
             "tele": ["i_tai_bwo", "fairy_ring"]
         },
         "canifis": {
@@ -327,7 +326,7 @@
             "name": "Xeric's talisman"
         },
         "i_games": {
-            "name": "Games' necklace"
+            "name": "Games necklace"
         },
         "i_ardy_cape_1": {
             "name": "Ardougne Cape 1",
@@ -408,7 +407,7 @@
             "req": ["i_sor"]
         },
         "poh_prif": {
-            "name": "Prifdinas POH",
+            "name": "prifddinas POH",
             "req": ["i_sor"]
         },
         "poh_taverley": {
@@ -437,7 +436,8 @@
         },
         "fairy_ring": {
             "name": "Fairy Ring",
-            "req": ["q_ft2"]
+            "req": ["q_ft2"],
+            "items": ["i_dramen"]
         },
         "spirit_tree": {
             "name": "Spirit Tree",
@@ -454,6 +454,20 @@
         "ardy_ship": {
             "name": "Ardougne Ship",
             "items": ["i_coins"]
+        }
+    },
+    "items": {
+        "i_coins": {
+            "name": "Coins"
+        },
+        "i_axe": {
+            "name": "Any axe"
+        },
+        "i_logs": {
+            "name": "Logs"
+        },
+        "i_dramen": {
+            "name": "Dramen staff"
         }
     },
     "inactive": {
