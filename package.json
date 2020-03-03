@@ -1,0 +1,22 @@
+{
+  "name": "farm-run-builder",
+  "version": "1.0.0",
+  "description": "Builds inventory and locations for farm runs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weblue/wanna_b_farm_runs.git"
+  },
+  "author": "Nader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weblue/wanna_b_farm_runs/issues"
+  },
+  "homepage": "https://github.com/weblue/wanna_b_farm_runs#readme",
+  "dependencies": {
+    "yargs": "^15.1.0"
+  }
+}
