@@ -1,6 +1,6 @@
 {
     "types": {
-        "list": ["tree", "herb", "bush", "allotments", "fruit_tree", "hops", "special"],
+        "list": ["tree", "herb", "bush", "allotments", "fruit_tree", "hops", "special", "flower"],
         "tree": {
             "name": "Tree",
             "minlvl": 15,
@@ -10,6 +10,10 @@
             "name": "Herb",
             "minlvl": 9,
             "loc": ["catherby", "farming_guild2", "falador_farm", "harmony_island_herb", "weiss", "troll_strong", "morytania", "hosidius", "ardy"]
+        },
+        "flower": {
+            "minlvl": 26,
+            "loc": ["catherby", "farming_guild1", "falador_farm", "prifddinas", "morytania", "ardy", "hosidius"]
         },
         "bush": {
             "name": "Bush",
@@ -79,148 +83,148 @@
             }
         }
     },
-    "loc": {
+    "locs": {
         "farming_guild1": {
             "name": "Farming Guild Tier 1",
             "req": [45, "hoss_favor"],
-            "item": ["i_skill", "fairy_ring"]
+            "tele": ["i_skill", "fairy_ring"]
         },
         "farming_guild2": {
             "name": "Farming Guild Tier 2",
             "req": [65, "hoss_favor"],
-            "item": ["i_skill", "fairy_ring"]
+            "tele": ["i_skill", "fairy_ring"]
         },
         "farming_guild3": {
             "name": "Farming Guild Tier 3",
             "req": [85, "hoss_favor"],
-            "item": ["i_skill", "fairy_ring"]
+            "tele": ["i_skill", "fairy_ring"]
         },
         "lletya": {
             "name": "Lletya",
             "req": [0, "q_mep1"],
-            "item": ["i_tele_crystal"]
+            "tele": ["i_tele_crystal"]
         },
         "falador_farm": {
             "name": "Falador Farm",
-            "item": ["i_exp_ring_2", "mg_rat", "tp_falador"]
+            "tele": ["i_exp_ring_2", "mg_rat", "tp_falador"]
         },
         "falador_park": {
             "name": "Falador Park",
-            "item": ["i_row", "tp_falador"]
+            "tele": ["i_row", "tp_falador"]
         },
         "morytania": {
             "name": "Morytania",
             "req": [0, "q_priest"],
-            "item": ["i_ecto", "tp_fenkenstrain", "fairy_ring"]
+            "tele": ["i_ecto", "tp_fenkenstrain", "fairy_ring"]
         },
         "al_kharid": {
             "name": "Al Kharid",
-            "item": ["i_rod", "i_glory"]
+            "tele": ["i_rod", "i_glory"]
         },
         "lumbridge": {
             "name": "Lumbridge",
-            "item": ["tp_home", "tp_lumbridge"]
+            "tele": ["tp_home", "tp_lumbridge"]
         },
         "varrock": {
             "name": "Varrock",
-            "item": ["tp_varrock"]
+            "tele": ["tp_varrock"]
         },
         "grand_tree": {
             "name": "Grand Tree",
             "req": [0, "q_grand_tree"],
-            "item": ["spirit_tree", "i_slayer_ring", "hot_air", "i_seed_pod"]
+            "tele": ["spirit_tree", "i_slayer_ring", "hot_air", "i_seed_pod"]
         },
         "tree_gnome_village": {
             "name": "Tree Gnome Village",
             "req": [0, "q_tgv"],
-            "item": ["spirit_tree", "fairy_ring"]
+            "tele": ["spirit_tree", "fairy_ring"]
         },
         "taverly": {
             "name": "Taverly",
-            "item": ["air_balloon", "poh_taverley", "i_games"]
+            "tele": ["hot_air", "poh_taverley", "i_games"]
         },
         "brimhaven": {
             "name": "Brimhaven",
-            "item": ["poh_brimhaven", "charter_ship", "ardy_ship"]
+            "tele": ["poh_brimhaven", "charter_ship", "ardy_ship"]
         },
         "catherby": {
             "name": "Catherby",
-            "item": ["tp_catherby", "tp_camelot"]
+            "tele": ["tp_catherby", "tp_camelot"]
         },
         "draynor": {
             "name": "Draynor Village",
-            "item": ["tp_draynor", "i_glory"]
+            "tele": ["tp_draynor", "i_glory"]
         },
         "tai_bwo": {
             "name": "Tai Bwo Wanna Village",
             "req": [0, "q_tbw"],
-            "item": ["i_tai_bwo", "fairy_ring"]
+            "tele": ["i_tai_bwo", "fairy_ring"]
         },
         "canifis": {
             "name": "Canifis",
             "req": ["q_priest"],
-            "item": ["fairy_ring", "tp_salve"]
+            "tele": ["fairy_ring", "tp_salve"]
         },
         "ard_monastary": {
             "name": "Ardougne Monastary",
-            "item": ["i_ardy_cape_1"]
+            "tele": ["i_ardy_cape_1"]
         },
         "champ_guild": {
             "name": "Champion's Guild",
-            "item": ["i_chronicle", "i_combat_brace", "canoe"]
+            "tele": ["i_chronicle", "i_combat_brace", "canoe"]
         },
         "entrana": {
             "name": "Entrana",
-            "item": ["hot_air", "mg_rat"]
+            "tele": ["hot_air", "mg_rat"]
         },
         "camelot": {
             "name": "Camelot",
-            "item": ["tp_camelot", "fairy_ring"]
+            "tele": ["tp_camelot", "fairy_ring"]
         },
         "yanille": {
             "name": "Yanille",
-            "item": ["tp_yanille", "poh_yanille", "mg_nmz"]
+            "tele": ["tp_yanille", "poh_yanille", "mg_nmz"]
         },
         "prifddinas": {
             "name": "Prifddinas",
             "req": ["q_sote"],
-            "item": ["spirit_tree", "i_tele_crystal", "poh_prif"]
+            "tele": ["spirit_tree", "i_tele_crystal", "poh_prif"]
         },
         "misc": {
             "name": "Miscillenia",
-            "item": ["i_row", "fairy_ring"]
+            "tele": ["i_row", "fairy_ring"]
         },
         "rim": {
             "name": "Rimmington",
-            "item": ["ardy_ship", "poh_rim"]
+            "tele": ["ardy_ship", "poh_rim"]
         },
         "harmony_island_herb": {
             "name": "Harmony Island",
             "req": ["d_mory_elite"],
-            "item": ["tp_harmony"]
+            "tele": ["tp_harmony"]
         },
         "harmony_island_allot": {
             "name": "Harmony Island",
             "req": ["q_great_brain"],
-            "item": ["tp_harmony"]
+            "tele": ["tp_harmony"]
         },
         "weiss": {
             "name": "Weiss",
             "req": ["q_arm_friend"],
-            "item": ["salt_weiss"]
+            "tele": ["salt_weiss"]
         },
         "troll_strong": {
             "name": "Troll Stronghold",
             "req": ["q_arm_adv"],
-            "item": ["salt_troll", "tp_troll"]
+            "tele": ["salt_troll", "tp_troll"]
         },
         "hosidius": {
             "name": "Hosidius",
-            "item": ["i_xerics", "poh_hoss"]
+            "tele": ["i_xerics", "poh_hos"]
         },
         "ardy": {
             "name": "Ardougne",
-            "item": ["i_ardy_cape_2"]
+            "tele": ["i_ardy_cape_2"]
         }
     },
     "reqs": {
@@ -254,6 +258,18 @@
         "q_sote": {
             "name": "Song of the Elves"
         },
+        "q_rat": {
+            "name": "Ratcatchers"
+        },
+        "q_enlightened": {
+            "name": "Enlightened Journey"
+        },
+        "q_ft2": {
+            "name": "Fairy Tale Part 2"
+        },
+        "q_mm2": {
+            "name": "Monkey Madness 2"
+        },
         "q_great_brain": {
             "name": "Great Brain Robbery"
         },
@@ -269,8 +285,12 @@
         "d_lumby_med": {
             "name": "Lumbridge Medium Diary or higher"
         },
+        "d_ardy_easy": {
+            "name": "Ardougne Easy Diary or higher"
+        },
         "d_ardy_med": {
-            "name": "Ardougne Medium Diary or higher"
+            "name": "Ardougne Medium Diary or higher",
+            "prereq": "d_ardy_easy"
         },
         "d_ardy_hard": {
             "name": "Ardougne Hard Diary or higher",
@@ -278,34 +298,94 @@
         }
     },
     "teleports": {
-        "ectophial": {
+        "i_exp_ring_2": {
+            "name": "Lumbridge Ring 2",
+            "req": ["d_lumby_med"]
+        },
+        "i_ardy_cape_2": {
+            "name": "Ardougne Cape 2",
+            "req": ["d_ardy_med"]
+        },
+        "i_ecto": {
             "name": "Ectophial",
-            "req": "q_ghosts_ahoy"
+            "req": ["q_ghosts_ahoy"]
         },
-        "lum_ring": {
-            "name": "Lumbridge Ring",
-            "req": "d_lumby_med"
+        "i_skill": {
+            "name": "Skills Necklace"
         },
-        "ardy_cloak": {
-            "name": "Ardougne Cape",
-            "req": "d_ardy_med"
+        "i_row": {
+            "name": "Ring of Wealth"
+        },
+        "i_tai_bwo": {
+            "name": "Tai Bwo Wanna Scroll"
+        },
+        "i_tele_crystal": {
+            "name": "Crystal Tele Seed",
+            "req": ["q_mep1"]
+        },
+        "i_xerics": {
+            "name": "Xeric's talisman"
+        },
+        "i_games": {
+            "name": "Games' necklace"
+        },
+        "i_ardy_cape_1": {
+            "name": "Ardougne Cape 1",
+            "req": ["d_ardy_easy"]
+        },
+        "i_chronicle": {
+            "name": "Chronicle"
+        },
+        "i_combat_brace": {
+            "name": "Combat Bracelet"
+        },
+        "i_slayer_ring": {
+            "name": "Slayer Ring"
+        },
+        "i_seed_pod": {
+            "name": "Grand seed pod",
+            "req": ["q_mm2"]
+        },
+        "i_rod": {
+            "name": "Ring of dueling"
+        },
+        "i_glory": {
+            "name": "Amulet of glory"
+        },
+        "i_harmony_tp": {
+            "name": "Harmony island teleport"
         },
         "tp_yanille": {
             "name": "Yanille TP",
             "req": "d_ardy_hard",
-            "runes": []
+            "items": []
+        },
+        "tp_varrock": {
+            "name": "Varrock TP",
+            "items": []
+        },
+        "tp_home": {
+            "name": "Home TP"
+        },
+        "tp_troll": {
+            "name": "Troll Stronghold TP",
+            "items": []
+        },
+        "tp_camelot": {
+            "name": "Camelot TP",
+            "items": []
+        },
+        "tp_lumbridge": {
+            "name": "Lumbridge TP",
+            "items": []
         },
         "tp_watchtower": {
             "name": "Watchtower TP",
-            "runes": []
+            "items": []
         },
-        "tele_seed": {
-            "name": "Crystal Tele Seed",
-            "req": ["q_mep1"]
-        },
-        "balloon": {
-            "name": "Balloon System",
-            "runes": ["logs"]
+        "tp_falador": {
+            "name": "Falador TP",
+            "items": []
         },
         "poh_yanille": {
             "name": "Yanille POH",
@@ -319,25 +399,75 @@
             "name": "Rimmington POH",
             "req": ["i_sor"]
         },
+        "poh_hos": {
+            "name": "Hosidius POH",
+            "req": ["i_sor"]
+        },
         "poh_brimhaven": {
             "name": "Brimhaven POH",
             "req": ["i_sor"]
+        },
+        "poh_prif": {
+            "name": "Prifdinas POH",
+            "req": ["i_sor"]
+        },
+        "poh_taverley": {
+            "name": "Taverley POH",
+            "req": ["i_sor"]
+        },
+        "salt_troll": {
+            "name": "Troll basalt",
+            "req": ["q_arm_friend"]
+        },
+        "salt_weiss": {
+            "name": "Weiss basalt",
+            "req": ["q_arm_friend"]
+        },
+        "mg_nmz": {
+            "name": "NMZ teleport"
+        },
+        "mg_rat": {
+            "name": "Ratcatchers teleport",
+            "req": ["q_rat"]
+        },
+        "hot_air": {
+            "name": "Balloon system",
+            "req": ["q_enlightened"],
+            "items": ["i_logs"]
+        },
+        "fairy_ring": {
+            "name": "Fairy Ring",
+            "req": ["q_ft2"]
         },
         "spirit_tree": {
             "name": "Spirit Tree",
             "req": ["q_tgv", "q_grand_tree"]
         },
-        "skills_neck": {
-            "name": "Skills Necklace"
+        "canoe": {
+            "name": "Canoe transport",
+            "items": ["i_axe"]
         },
-        "row": {
-            "name": "Ring of Wealth"
+        "charter_ship": {
+            "name": "Charter ship",
+            "items": ["i_coins"]
         },
-        "scroll_tbw": {
-            "name": "Tai Bwo Wanna Scroll"
+        "ardy_ship": {
+            "name": "Ardougne Ship",
+            "items": ["i_coins"]
         }
     },
-    "items": {
-        //TODO: add items and reqs
+    "inactive": {
+        "tp_fenkenstrain": {
+
+        },
+        "tp_salve_arc": {
+
+        },
+        "tp_draynor_arc": {
+
+        },
+        "tp_catherby": {
+
+        }
     }
 }
