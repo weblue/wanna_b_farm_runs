@@ -3,6 +3,10 @@
  *To do this, return teleport array and have the selecting logic show the items
  *associated to that teleport
  */
+//TODO add pictures for inventory display
+//TODO create UI
+//TODO make logic accept dynamic input
+//TODO profile save/loading logic
 
 const fs = require("fs")
 
