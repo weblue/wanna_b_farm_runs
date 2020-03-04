@@ -200,12 +200,12 @@
         "harmony_island_herb": {
             "name": "Harmony Island",
             "req": ["d_mory_elite"],
-            "tele": ["tp_harmony"]
+            "tele": ["i_harmony_tp"]
         },
         "harmony_island_allot": {
             "name": "Harmony Island",
             "req": ["q_great_brain"],
-            "tele": ["tp_harmony"]
+            "tele": ["i_harmony_tp"]
         },
         "weiss": {
             "name": "Weiss",
@@ -357,11 +357,11 @@
         "tp_yanille": {
             "name": "Yanille TP",
             "req": "d_ardy_hard",
-            "items": []
+            "items": ["i_rune_law", "i_rune_earth"]
         },
         "tp_varrock": {
             "name": "Varrock TP",
-            "items": []
+            "items": ["i_rune_law", "i_rune_air", "i_rune_fire"]
         },
         "tp_home": {
             "name": "Home TP",
@@ -369,51 +369,58 @@
         },
         "tp_troll": {
             "name": "Troll Stronghold TP",
-            "items": []
+            "items": ["i_rune_law", "i_rune_fire"]
         },
         "tp_camelot": {
             "name": "Camelot TP",
-            "items": []
+            "items": ["i_rune_law", "i_rune_air"]
         },
         "tp_lumbridge": {
             "name": "Lumbridge TP",
-            "items": []
+            "items": ["i_rune_law", "i_rune_air", "i_rune_earth"]
         },
         "tp_watchtower": {
             "name": "Watchtower TP",
-            "items": []
+            "items": ["i_rune_law", "i_rune_earth"]
         },
         "tp_falador": {
             "name": "Falador TP",
-            "items": []
+            "items": ["i_rune_law", "i_rune_air", "i_rune_water"]
         },
         "poh_yanille": {
             "name": "Yanille POH",
-            "req": ["i_sor"]
+            "req": ["i_sor"],
+            "items": ["i_house_tab", "i_sor"]
         },
         "poh_taverly": {
             "name": "Taverly POH",
-            "req": ["i_sor"]
+            "req": ["i_sor"],
+            "items": ["i_house_tab", "i_sor"]
         },
         "poh_rim": {
             "name": "Rimmington POH",
-            "req": ["i_sor"]
+            "req": ["i_sor"],
+            "items": ["i_house_tab", "i_sor"]
         },
         "poh_hos": {
             "name": "Hosidius POH",
-            "req": ["i_sor"]
+            "req": ["i_sor"],
+            "items": ["i_house_tab", "i_sor"]
         },
         "poh_brimhaven": {
             "name": "Brimhaven POH",
-            "req": ["i_sor"]
+            "req": ["i_sor"],
+            "items": ["i_house_tab", "i_sor"]
         },
         "poh_prif": {
             "name": "prifddinas POH",
-            "req": ["i_sor"]
+            "req": ["i_sor"],
+            "items": ["i_house_tab", "i_sor"]
         },
         "poh_taverley": {
             "name": "Taverley POH",
-            "req": ["i_sor"]
+            "req": ["i_sor"],
+            "items": ["i_house_tab", "i_sor"]
         },
         "salt_troll": {
             "name": "Troll basalt",
@@ -470,6 +477,27 @@
         },
         "i_dramen": {
             "name": "Dramen staff"
+        },
+        "i_house_tab": {
+            "name": "House tablet"
+        },
+        "i_sor": {
+            "name": "Scroll of Redirection"
+        },
+        "i_rune_law": {
+            "name": "Law rune"
+        },
+        "i_rune_fire": {
+            "name": "Fire rune"
+        },
+        "i_rune_air": {
+            "name": "Air rune"
+        },
+        "i_rune_earth" : {
+            "name": "Earth rune"
+        },
+        "i_rune_water": {
+            "name": "Water rune"
         }
     },
     "inactive": {
