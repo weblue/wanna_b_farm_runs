@@ -109,12 +109,12 @@
         },
         "falador_park": {
             "name": "Falador Park",
-            "tele": ["i_row", "tp_falador"]
+            "tele": ["tp_falador", "i_row"]
         },
         "morytania": {
             "name": "Morytania",
             "req": ["q_priest"],
-            "tele": ["i_ecto", "tp_fenkenstrain", "fairy_ring"]
+            "tele": ["i_ecto", "fairy_ring"]
         },
         "al_kharid": {
             "name": "Al Kharid",
@@ -140,7 +140,7 @@
         },
         "taverly": {
             "name": "Taverly",
-            "tele": ["hot_air", "poh_taverley", "i_games"]
+            "tele": ["poh_taverley", "hot_air", "i_games"]
         },
         "brimhaven": {
             "name": "Brimhaven",
@@ -148,11 +148,11 @@
         },
         "catherby": {
             "name": "Catherby",
-            "tele": ["tp_catherby", "tp_camelot"]
+            "tele": ["tp_camelot"]
         },
         "draynor": {
             "name": "Draynor Village",
-            "tele": ["tp_draynor", "i_glory"]
+            "tele": ["i_glory"]
         },
         "tai_bwo": {
             "name": "Tai Bwo Wanna Village",
@@ -162,7 +162,7 @@
         "canifis": {
             "name": "Canifis",
             "req": ["q_priest"],
-            "tele": ["fairy_ring", "tp_salve"]
+            "tele": ["fairy_ring"]
         },
         "ard_monastary": {
             "name": "Ardougne Monastary",
@@ -364,7 +364,8 @@
             "items": []
         },
         "tp_home": {
-            "name": "Home TP"
+            "name": "Home TP",
+            "items": []
         },
         "tp_troll": {
             "name": "Troll Stronghold TP",
@@ -441,7 +442,8 @@
         },
         "spirit_tree": {
             "name": "Spirit Tree",
-            "req": ["q_tgv", "q_grand_tree"]
+            "req": ["q_tgv", "q_grand_tree"],
+            "items": []
         },
         "canoe": {
             "name": "Canoe transport",

@@ -16,7 +16,5 @@
     "url": "https://github.com/weblue/wanna_b_farm_runs/issues"
   },
   "homepage": "https://github.com/weblue/wanna_b_farm_runs#readme",
-  "dependencies": {
-    "yargs": "^15.1.0"
-  }
+  "dependencies": {}
 }
